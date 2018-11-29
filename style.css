@@ -159,6 +159,7 @@ hr {
 .servis:hover {
     background-color: #00bcd4;
     transition: 0.3s;
+    margin-top: 0 auto;
 }
 
 .servis a {
@@ -196,7 +197,7 @@ hr {
 /* about-as */
 
 .about-as-right-image {
-    height: 800px;
+    height: 680px;
     background-image: url(img/bg1.jpg);
     background-size: cover;
 }
@@ -273,6 +274,7 @@ hr {
 }
 
 .winning a {
+    font-size: 16px;
     font-weight: 700;
     color: black;
 }
@@ -298,3 +300,44 @@ hr {
     margin-right: 1px;
 }
 /* //about-as */
+
+.headding{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8rem!important;
+    color: #000
+}
+
+.post-project-work{
+    font-size: 17px;
+    color: #000;
+    text-align: center;
+}
+
+.work-text{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.work-a{
+    color:black;
+}
+
+.work-a:hover{
+    color: #00bcd4;
+    transition: 0.33s;
+}
+
+.work-button{
+    font-size: 17px;
+    border-bottom:solid 1px;
+    margin-left:150px;
+    color: #00bcd4;
+}
+
+.work-button:hover{
+    color: #000;
+    transition:0.33s;    
+}
